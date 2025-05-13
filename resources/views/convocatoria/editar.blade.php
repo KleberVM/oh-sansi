@@ -1,7 +1,7 @@
 <x-app-layout>
     <link rel="stylesheet" href="{{ asset('css/convocatoria/editar.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+    <link rel="stylesheet" href="/css/convocatoria/editar.css">
     <div class="p-6">
         @if($convocatoria->estado == 'Cancelada')
         <div class="alert alert-warning">

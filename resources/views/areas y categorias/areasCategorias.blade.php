@@ -1,5 +1,6 @@
 @push('styles')
     <link rel="stylesheet" href="{{ asset('css/areasCategorias.css') }}">
+    <link rel="stylesheet" href="/css/areasCategorias.css">
 @endpush
 
 <x-app-layout>

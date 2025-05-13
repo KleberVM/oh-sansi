@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="{{ asset('css/perfil/perfil.css') }}">
     <script src="{{ asset('js/perfil.js') }}" defer></script>
 
+    <link rel="stylesheet" href="/css/perfil/perfil.css">
+    
+
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <!-- Mensajes de éxito o error -->
@@ -175,4 +178,5 @@
             </div>
         </div>
     </div>
+    <script src="/js/perfil.js" defer></script>
 </x-app-layout>

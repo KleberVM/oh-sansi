@@ -3,10 +3,18 @@
 <link rel="stylesheet" href="{{ asset('css/inscripcion/inscripcionTutor.css') }}">
 <link rel="stylesheet" href="{{ asset('css/inscripcion/inscripcionManual.css') }}">
 <link rel="stylesheet" href="{{ asset('css/inscripcion/mostrarConvocatoriaInfo.css') }}">
+
+
+<link rel="stylesheet" href="/css/custom.css">
+<link rel="stylesheet" href="/css/inscripcion/inscripcionTutor.css">
+<link rel="stylesheet" href="/css/inscripcion/inscripcionManual.css">
+<link rel="stylesheet" href="/css/inscripcion/mostrarConvocatoriaInfo.css">
+
 <!-- Scripts necesarios para el modal y la previsualización -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css">
 <link rel="stylesheet" href="{{ asset('css/inscripcion/previsualizacion.css') }}">
+<link rel="stylesheet" href="/css/inscripcion/previsualizacion.css">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
@@ -288,3 +296,4 @@
     <span id="successText"></span>
 </div>
 <script src="{{ asset('js/inscripcionTutor/inscripcionManual.js') }}"></script>
+<script src="/js/inscripcionTutor/inscripcionManual.js"></script>

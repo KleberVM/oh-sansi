@@ -11,6 +11,12 @@
     <link rel="stylesheet" href="{{ asset('css/convocatoria/publica.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="/css/welcome.css">
+    <link rel="stylesheet" href="/css/barraNavegacionPrincipal.css">
+    <link rel="stylesheet" href="/css/contentFooter.css">
+    <link rel="stylesheet" href="/css/convocatoria/convocatoria.css">
+    <link rel="stylesheet" href="/css/convocatoria/publica.css">
 </head>
 
 <body class="antialiased">

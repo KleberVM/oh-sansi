@@ -1,6 +1,6 @@
 <x-app-layout>
     <link rel="stylesheet" href="{{ asset('css/inscripcion/inscripcionEstudiante.css') }}">
-
+    <link rel="stylesheet" href="/css/inscripcion/inscripcionEstudiante.css">
     <!-- Modal for No Active Convocatoria -->
     @if(!$convocatoriaActiva)
     <div id="noConvocatoriaModal" class="modal-overlay" style="display: flex;">

@@ -2,6 +2,9 @@
     <link rel="stylesheet" href="{{ asset('css/delegacion/delegacion.css') }}">
     <link rel="stylesheet" href="{{ asset('css/delegado/delegado.css') }}">
 
+    <link rel="stylesheet" href="/css/delegacion/delegacion.css">
+    <link rel="stylesheet" href="/css/delegado/delegado.css">
+
     <!-- Success Message -->
     @if(session('success'))
     <div class="alert alert-success py-1 px-2 mb-1">

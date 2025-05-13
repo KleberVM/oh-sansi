@@ -1,6 +1,6 @@
 <x-app-layout>
     <link rel="stylesheet" href="{{ asset('css/dashboard.css') }}">
-    
+    <link rel="stylesheet" href="/css/dashboard.css">
     <div class="dashboard-container">
         <!-- Tarjetas de Resumen -->
         <div class="stats-cards">

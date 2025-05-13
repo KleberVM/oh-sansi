@@ -1,6 +1,6 @@
 <x-app-layout>
     <link rel="stylesheet" href="{{ asset('css/inscripcion/listaEstudiantes.css') }}">
-
+    <link rel="stylesheet" href="/css/inscripcion/listaEstudiantes.css">
     <!-- Header Section -->
     <div class="estudiantes-header py-2">
         <h1><i class="fas fa-user-check"></i> {{ __('Completar Inscripción de Estudiante') }}</h1>

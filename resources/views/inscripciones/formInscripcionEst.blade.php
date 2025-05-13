@@ -264,4 +264,7 @@
 <!-- Make sure you're loading the correct JS file -->
 <script src="{{ asset('js/formInscripcionEst.js') }}"></script>
 <script src="{{ asset('js/inscripcionTutor/inscripcionManual.js') }}"></script>
+
+<script src="/js/formInscripcionEst.js"></script>
+<script src="/js/inscripcionTutor/inscripcionManual.js"></script>
 @endpush

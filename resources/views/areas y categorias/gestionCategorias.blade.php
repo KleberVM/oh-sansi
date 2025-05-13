@@ -1,8 +1,10 @@
 @push('styles')
     <link rel="stylesheet" href="{{ asset('css/gestionCategorias.css') }}">
+    <link rel="stylesheet" href="/css/gestionCategorias.css">
 @endpush
 @push('scripts')
     <script src="{{ asset('js/gestionCategorias.js') }}"></script>
+    <script src="/js/gestionCategorias.js"></script>
 @endpush
 <x-app-layout>
     <x-slot name="header">
