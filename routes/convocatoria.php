@@ -6,7 +6,6 @@ use Illuminate\Support\Facades\Route;
 // Rutas públicas para convocatorias
 Route::get('/convocatorias', [ConvocatoriaController::class, 'publicadas'])->name('convocatoria.publica');
 Route::get('/convocatorias/{id}', [ConvocatoriaController::class, 'verPublica'])->name('convocatoria.publica.ver');
-Route::get('/convocatorias/{id}/pdf', [ConvocatoriaController::class, 'exportarPdf'])->name('convocatorias.exportarPdf');
 
 // Add these routes for exports
 Route::get('/convocatoria/exportar/pdf', [ConvocatoriaController::class, 'exportPdf'])->name('convocatoria.exportar.pdf');
